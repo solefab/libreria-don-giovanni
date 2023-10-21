@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Don Giovanni</title>
+    <meta name="author" content="solefab">
+    <meta name="description" content="Esta es mi primera página web sobre una tienda de libros">
+    <meta name="keywords" content="libros, librería, lectura, tienda de libros, literatura">
+    <link rel="shortcut icon" href="\assets\img\icons8-libros-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="custom-heading">Librería Don Giovanni</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home </a></li>
+                <li> <a href="catalogo.html">Catálogo </a></li>
+                <li> <a href="destacado.html">Libro destacado del mes </a></li>
+                <li> <a class="active" href="contacto.html">Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <p class="contacto container">Si quieres hacernos alguna consulta, te invitamos a completar el siguiente
+            formulario:</p>
+    </div>
+       <div class="w-75 mx-auto">
+                <form method="get">
+   
+            <div class="form-group">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" placeholder="Escribe aquí tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="mail">Email:</label> <br>
+                <input type="email" name="mail" id="mail" placeholder="Escribe aquí tu email" required>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Escriba su consulta aquí</label> <br>
+                <textarea name="comentario" id="comentario" placeholder="Escribe aquí tu consulta"></textarea>
+            </div>
+            <label for="newsletter">¿Quieres subscribirte a nuestra newsletter para conocer las novedades?</label>
+            <div class="form-group">
+                <input type="radio" id="si" name="newsletter" checked>
+                <label for="si">Si</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="no" name="newsletter">
+                <label for="no">No</label>
+            </div>
+            <label for="generos">¿Sobre qué tipo de libros te gustaría recibir novedades?</label>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    
+                    <div><label><input type="checkbox" for="generos"> Economía</label></div>
+                    <div><label><input type="checkbox" for="generos"> Narrativa Argentina</label></div>
+                    <div><label><input type="checkbox" for="generos"> Comunicación</label></div>
+                    <div><label><input type="checkbox" for="generos"> Mitología</label></div>
+                    <div><label><input type="checkbox" for="generos"> Ensayo</label></div>
+                    <div><label><input type="checkbox" for="generos"> Historia</label></div>
+                    <div><label><input type="checkbox" for="generos"> Infantiles-Juveniles</label></div>
+                    <div><label><input type="checkbox" for="generos"> Investigación periodística</label></div>
+                </div>
+                <div class="col-4">
+                    
+                    <div><label> <input type="checkbox" for="generos"> Viajes</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Fotografía</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Género</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Literatura fantástica</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Ciencia ficción</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Literatura clásica</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Literatura europea</label></div>
+                    <div><label> <input type="checkbox" for="generos"> Literatura latinoamericana</label> </div>
+                </div>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
