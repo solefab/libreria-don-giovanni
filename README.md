@@ -1,5 +1,5 @@
 # libreria-don-giovanni
-[Librería Don Giovanni](https://solefab.github.io/libreria-don-giovanni/)
+Librería Don Giovanni (Para ver la página en funcionamiento hacer clic **[aqui](https://solefab.github.io/libreria-don-giovanni/)**)
 
 Este es el repositorio de una página sobre una librería imaginaria que hice para repasar y practicar HTML, CSS y Bootstrap.
 
